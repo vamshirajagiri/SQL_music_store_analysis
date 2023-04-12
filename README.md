@@ -1,10 +1,10 @@
 # SQL_music_store_analysis
 Through a comprehensive analysis of the music store database, I was able to provide actionable insights to several important business inquiries. The resulting findings demonstrate a deep understanding of the database structure and effectively utilize SQL querying.
 
-#Easy Questions:
+# Easy Questions:
 /* Q1: Who is the senior most employee based on job title? */
 
-select * from employee 
+> select * from employee 
 order by levels desc
 limit 1;
 
@@ -47,7 +47,7 @@ group by customer.customer_id
 order by amnt_spent desc
 limit 1;
 
-#Moderate Questions
+# Moderate Questions
 /* Q1: Let's invite the artists who have written the most rock music in our dataset. 
 Write a query that returns the Artist name and total track count of the top 10 rock bands. */
 
@@ -83,7 +83,7 @@ order by email;
 
 
 
-#Hard Questions
+# Hard Questions
 
 /* Q1: We want to find out the most popular music Genre for each country. 
 We determine the most popular genre as the genre 
