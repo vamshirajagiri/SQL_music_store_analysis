@@ -4,7 +4,7 @@ Through a comprehensive analysis of the music store database, I was able to prov
 # Easy Questions:
 >  Q1: Who is the senior most employee based on job title? 
 
-select * from employee 
+`#ebab34` select * from employee 
 order by levels desc
 limit 1;
 
@@ -15,7 +15,7 @@ group by billing_country
 order by no_of_invoices desc; 
 
 >  Q3: What are top 3 values of total invoice? 
-select total from invoice
+`#ebab34` select total from invoice
 order by total desc
 limit 3;
 
@@ -25,7 +25,7 @@ We would like to throw a promotional Music Festival in the city we made the most
 Write a query that returns one city that has the highest sum of invoice totals. 
 Return both the city name & sum of all invoice totals 
 
-select billing_city ,
+`#ebab34` select billing_city ,
 sum(total) as sum_of_invoice 
 from invoice
 group by billing_city
