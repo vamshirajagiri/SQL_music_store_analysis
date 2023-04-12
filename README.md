@@ -4,7 +4,7 @@ Through a comprehensive analysis of the music store database, I was able to prov
 # Easy Questions:
 >  Q1: Who is the senior most employee based on job title? 
 
-`#ebab34` select * from employee 
+`#ebab34`select * from employee 
 order by levels desc
 limit 1;
 
